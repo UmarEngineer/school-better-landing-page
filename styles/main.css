@@ -1,0 +1,1250 @@
+
+/* Core styles section */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #26335d ;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.section__info{
+    padding-left: 13.75rem;
+    padding-top: 10rem;
+}
+
+.section__subtitle{
+    color: #8d5cf6;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.section__title{
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    padding: 0.625rem 0;
+}
+
+.section__description{
+    color: whitesmoke;
+    line-height: 1.3rem;
+    letter-spacing: 0.05rem;
+}
+
+/* Navbar section styles */
+
+.navbar{
+    display: flex;
+    padding-left: 197px;
+    position: relative;
+    z-index: 20;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+    margin-top: 1.75rem;
+    cursor: pointer;
+}
+
+.navbar-items{
+    display: flex;
+    column-gap: 2rem;
+    padding: 1.875rem 6.25rem;
+}
+
+.navbar-link{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-buttons{
+    display: flex;
+    padding-top: 1.875rem;
+    padding-left: 6.25rem;
+    column-gap: 2.5rem;
+    color: white;
+}
+
+.navbar__action{
+    width: 140px;
+    height: 50px;
+    margin-top: -0.94rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #8d5cf6;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding-bottom: 0.45rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar__action i {
+    font-size: 1.5rem;
+    font-weight: 100;
+    position: relative;
+    top: 5px;
+}
+
+/* Main section styles */
+
+
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+
+.main-section__info{
+    float: left;
+    color: white;
+    padding-left: 197px;
+    padding-top: 70px;
+    position: relative;
+    z-index: 12;
+}
+
+.hero__img img{
+    position: absolute;
+    z-index: -10;
+    top: -200px;
+    left: 0;
+    width: 785px;
+    height: 810px;
+}
+
+.main-section__subtitle{
+    padding-bottom: 35px;    
+}
+
+.main-section__title{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+}
+
+.main-section__description{
+    padding-top: 35px;
+    letter-spacing: 0.15rem;
+    line-height: 1.5rem;
+}
+
+.main-section__buttons{
+    display: flex;
+    padding-top: 35px;
+}
+
+.main-section__get{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: #8d5cf6;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.75rem 1.875rem;
+    cursor: pointer;
+}
+
+.main-section__get:hover{
+    border: solid 0.1px white;
+}
+
+.main-section__learn-more{
+    width: 140px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: .3rem;
+    margin-left: 0.625rem;
+    padding-top: 0.65rem;
+    text-align: center;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.main-section__learn-more:hover{
+    border-color: #8d5cf6;
+}
+
+.main-section__image img{
+    transition: 1s;
+}
+
+.main-section__image img:hover{
+    transform: scale(1.2);
+}
+
+/* Card section styles */
+
+.card{
+    position: relative;
+    left: 16%;
+    display: flex;
+    box-sizing: border-box;
+    width: 79%;
+    top: -90px;
+    z-index: 12;
+}
+
+.card-items{
+    display: flex;
+}
+
+.card-item{
+    width: 27.5%;
+    margin-right: 2.5%;
+    height: 290px;
+    background-color: white;
+    padding-left: 2.5rem;
+}
+
+.card-item:hover{
+    box-shadow: 5px 5px 10px 1px #8d5cf6;
+}
+
+.card-item:hover .card-item__image img{
+    transform: scale(1.2);
+}
+
+.card-item:hover .red-line{
+    width: 160px;
+}
+
+.card-item__image img{
+    margin-top: 2.5rem;
+    transition: 1s;
+}
+
+.card-item__title{
+    font-weight: 900;
+    color: #26335d;
+    padding-top: 0.9375rem;
+}
+
+.red-line{
+    width: 45px;
+    height: 1px;
+    background-color: rgb(180, 16, 16);
+    margin: 1.25rem 0;
+    transition: 1s;
+}
+
+.card-item__description{
+    color: rgb(87, 87, 87);
+    font-weight: 500;
+}
+
+/* Statistics section styles */
+
+.statistics{
+    padding: 2.5rem 0;
+}
+
+.statistic-items{
+    display: flex;
+    margin: 0 9.375rem;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.statistic-item__title{
+    font-size: 3rem;
+    font-weight: 700;
+    color:  #8d5cf6;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.statistic-item__description{
+    padding-top: 0.3125rem;
+    letter-spacing: .1rem;
+    color: white;
+}
+
+    /* Courses section styles */
+
+.courses{
+    position: relative;
+    padding-left: 13.75rem;
+    padding-top: 12.5rem;
+}
+
+.courses > div{
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.course__info{
+    padding-top: 4.375rem;
+}
+
+.red-line2{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(201, 54, 54);
+}
+
+.course__title{
+    padding-top: 2.5rem;
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+}
+
+.course__description{
+    padding: 2.5rem 0;
+    line-height: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+.course__learn-more a{
+    color: #8d5cf6;
+    text-decoration: none;
+    letter-spacing: 0.09rem;
+}
+
+.course__learn-more i{
+    font-size: 1.5rem;
+    position: relative;
+    top: 3.5px;    
+}
+
+.course__image{
+    padding-top: -3.125rem;
+    position: relative;
+}
+
+.course__image-top__box{
+    position: absolute;
+    top: 200px;
+    left: 760px;
+    width: 60px;
+    height: 80px;
+    background-color: rgb(210, 252, 238);
+    z-index: 1;
+}
+
+.course__image-top img{
+    position: absolute;
+    top: 210px;
+    left: 710px;
+    z-index: 2;
+}
+
+.course__image-bottom img{
+    position: absolute;
+    top: 480px;
+    left: 700px;
+}
+
+.course__image-bottom__box{
+    position: absolute;
+    top: 480px;
+    left: 1170px;
+    width: 35px;
+    height: 65px;
+    background-color: rgb(255, 224, 179);
+    z-index: 1;
+}
+
+/* Quality section styles */
+
+.quality{
+    padding-top: 6.25rem;
+}
+
+
+
+/* Quality posts */
+
+.quality__posts{
+    padding: 6.25rem 13.75rem;
+    display: flex;
+}
+
+.quality__post,
+.quality__postone{
+    width: 23%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.quality__post-sale{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    width: 45px;
+    height: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    background-color: rgb(223, 35, 35);
+}
+
+.quality__post-image img{
+    margin-left: -0.23rem;
+}
+
+.quality__post-icons{
+    position: absolute;
+    top: 235px;
+    color: #26335d;
+    left: 45px;
+}
+
+.quality__post-icons i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    padding: 0.56rem 0.69rem;
+    font-weight: 800;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.quality__post-info{
+    padding: 1.25rem 0 1.25rem 1.56rem;
+}
+
+.quality__post-subtitle{
+    color: #8d5cf6;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    float: left;    
+}
+
+.quality__post-rate{
+    width: 45px;
+    height: 22px;
+    background-color: #26335d;
+    color: white;
+    font-size: 0.8rem;
+    float: left;
+    padding-right: 3.125rem;
+    padding: 0.1875rem 0.3125rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+}
+
+.quality__post-rate i{
+    color: yellow;
+    padding-right: 0.1875rem;    
+}
+
+.quality__post-title{
+    color: #26335d;
+    font-weight: bolder;
+    font-size: 1.125rem;
+    padding-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.quality__post-description{
+    color: gray;
+    padding: 0.625rem 0;
+}
+
+.quality__post-download{
+    color: gray;
+    font-weight: 800;
+}
+
+.quality__post-download i {
+    padding-right: .5rem;
+}
+
+.quality__post-price{
+    padding: 0.625rem 0;
+}
+
+.old-price{
+    color: lightgray;
+    font-weight: 700;
+    padding-right: 0.3125rem;
+}
+
+.new-price{
+    color: rgb(238, 110, 110);
+    font-weight: 700;
+}
+
+.quality__post-learn-more{
+    width: 130px;
+    height: 40px;
+    border: solid 1px #8d5cf6;
+    border-radius: 20px;
+    color: #8d5cf6;
+    font-weight: 900;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.25rem;
+    cursor: pointer;
+}
+
+/* Prices section styles */
+
+.price-boxes{
+    padding: 6.25rem 13.75rem;
+
+}
+
+.prices-box__first{
+    width: 31%;
+    margin-right: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 800px;
+    padding-top: 2.5rem;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.prices-box__two{
+    width: 31%;
+    margin-right: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 800px;
+    padding-top: 2.5rem;
+    background-color: #793dfa;
+    color: white;
+    box-sizing: border-box;
+}
+
+.first-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #8d5cf6;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 6.875rem;
+    padding-top: 1.56rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.price__title{
+    color: #26335d;
+    font-size: 2rem;
+    padding: 1.25rem 0;
+    text-align: center;
+}
+
+.price__description{
+    color: dimgray;
+    font-weight: 800;
+    text-align: center;
+}
+
+.price__price{
+    font-size: 3rem;
+    padding-top: 1.875rem;
+    color: #8d5cf6;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.price__date{
+    color: rgb(0, 184, 184);
+    text-align: center;
+    padding-bottom: 1.875rem;
+}
+
+.price__action{
+    background-color: #793dfa;
+    color: white;
+    width: 75%;
+    height: 50px;
+    margin: 12.5%;
+    border-radius: 5px;
+    border: none;
+}
+
+.course__possibility{
+    margin-left: 12.5%;
+}
+
+.price__possible{
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+.gray{
+    color: rgb(173, 166, 166) !important;
+}
+.price__possible i, 
+.price__possible-two i {
+    color: seagreen;
+    font-size: 2rem;
+    font-weight: 100;
+    vertical-align: 0;
+    padding-right: 0.1875rem;
+}
+
+.price__possible span{
+    font-weight: bolder;
+    vertical-align: 0.5rem;   
+    color: #26335d; 
+}
+
+.support{
+    padding-left: 2.5rem;
+    vertical-align: top;
+}
+
+.two-icon{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 6.875rem;
+    padding-top: 1.56rem;
+    border-radius: 50%;
+    color: #8d5cf6;
+}
+
+.price__title-two{
+    color: white;
+    font-size: 2rem;
+    padding: 1.25rem 0;
+    text-align: center;
+}
+
+.price__description-two{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.price__price-two{
+    font-size: 3rem;
+    padding-top: 1.875rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.price__action-two{
+    background-color: seagreen;
+    color: white;
+    width: 75%;
+    height: 50px;
+    margin: 12.5%;
+    border-radius: 5px;
+    border: none;
+}
+
+.course__possibility-two{
+    margin-left: 12.5%;
+    color: white;
+}
+
+.price__possible{
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+.price__possible-two span{
+    font-weight: bolder;
+    vertical-align: 0.5rem;   
+    color: white; 
+}
+
+.new{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(211, 116, 0);
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    padding-top: 1.5625rem;
+    font-weight: 700;
+    position: relative;
+    top: -920px;
+    left: 1070px;
+}
+
+/* Our teachers section styles */
+
+.teachers{
+    padding-top: 5rem;
+    padding-left: 13.75rem;
+}
+
+.teachers__blogs{
+    padding-top: 5.625rem;
+}
+
+.teachers__blogs > div{
+    width: 39%;
+    float: left;
+    margin-right: 2%;
+    background-color: white;
+    height: 380px;
+}
+
+.teacher__blog-image img{
+    margin: 1.875rem 10.625rem;
+    border-radius: 50%;
+}
+
+.teacher__blog-description{
+    text-align: center;
+    color: #737373;
+    font-weight: 700;
+}
+
+/* #252B42 */
+.teacher__blog-rate{
+    color: #F3CD03;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.94rem;
+}
+
+.teacher__blog-name{
+    text-align: center;
+    color: #252B42;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding-top: 0.94rem;
+}
+
+.teacher__blog-position{
+    text-align: center;
+    color: #737373;
+    font-weight: 900;
+    padding-top: 0.625rem;
+}
+
+
+/* Newslater section styles */
+
+.newslatter__info{
+    text-align: center;
+    padding-top: 18.75rem;
+}
+
+.newslatter__input{
+    text-align: center;
+    padding-top: 3.125rem;
+}
+
+.email{
+    margin-bottom: 6.25rem;
+    width: 550px;
+    height: 50px;
+    border: none;
+    padding-left: 1.25rem;
+    font-size: 1.1rem;
+    color: #252B42;
+    font-weight: 700;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.newslatter__action{
+    width: 100px;
+    height: 50px;
+    background-color: #793dfa;
+    border: solid 0.1px white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    top: -2px;
+    left: -4px;
+    color: white;
+}
+
+.email:focus{
+    border: none;
+    border-style: none;
+}
+
+
+/* Footer sectoion styles */
+
+.footer{
+    padding-top: 6.25rem;
+}
+
+.footer__items{
+    display: flex;
+    padding-left: 13.75rem;
+}
+
+.footer__item{
+    margin-right: 4.375rem;
+}
+
+.footer__item h3{
+    margin-bottom: 0.625rem;
+    color: white;
+    font-weight: 400;
+}
+
+.footer__item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__item i{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.footer__item-header{
+    padding-bottom: 0.94rem;
+}
+
+.footer__item-phone{
+    margin-left: 8.75rem;
+}
+
+.footer__item-envelope{
+    margin-left: 6.25rem;
+}
+
+.footer__navbar{
+    display: flex;
+    height: 60px;
+    background-color: whitesmoke;
+}
+
+.footer__navbar-text{
+    color: #737373;
+    font-size: 1.2rem;
+    padding: 1.875rem 13.75rem;
+    font-weight: 800;
+}
+
+.footer__item-icons{
+    margin-left: 18.75rem;
+    padding: 25px;
+}
+
+.footer__item-icons i {
+    color: #793dfa;
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+}
+
+@media screen and (max-width: 1300px ) {
+    .container{
+        width: 100%;
+        margin-top: -5px;
+    }
+
+    .hero__img{
+        position: static;
+    }
+
+    .main-section__image{
+        transform: scale(0.7);
+        margin-top: -100px;
+        
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .navbar-buttons{
+        padding-left: 5.5rem;
+    }
+
+    .main-section__subtitle{
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .main-section__title{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .main-section__description{
+        padding-top: 15px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    
+    .navbar-buttons{
+        padding-left: 3rem;
+    }
+    
+    .main-section__image img{
+        transform: scale(0.7);
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+
+    /* Card section */
+
+    .card{
+        top: 50px;
+    }
+
+    .card-item__description{
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+        
+    .navbar-buttons{
+        padding-left: 0;
+    }
+
+    .main-section__image img{
+            right: -220px;
+    }
+
+    .card{
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+   
+    .navbar{
+        padding-left: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    .main-section__image img{
+        right: -420px;
+    }
+
+    .main-section > div{
+        width: 100%;
+    }  
+
+    .main-section__info{
+        padding-left: 3rem;
+        padding-top: 2rem;
+    }
+    
+    .main-section__image{
+        display: none;
+    }
+    
+    .navbar-items{
+        display: none;
+    }
+    .navbar-buttons{
+        position: absolute;
+        right: 20px;
+    }
+
+    /* Card section */
+
+    .card{
+        top: 2rem;
+        left: 10%;
+        width: 92%;
+    }
+
+    .card-item{
+        padding-left: 1rem;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .card-item__image img{
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+    }
+}
+
+@media  only screen and (max-width: 768px) {
+
+    
+    .container{
+        width: 96%;
+        margin-top: -5px;
+    }
+
+
+    /* Navigation section */
+    
+    .navbar-brand{
+        padding: 0;
+    }
+
+    .navbar-buttons{
+        padding-left: 30%;
+    }
+
+
+
+    .main-section > div{
+        width: 100%;
+    }
+
+    .hero__img{
+        position: relative;
+        transform: scale(0.9);
+        top: -150px;
+        left: -200px;
+        z-index: -2;
+    }
+
+
+
+    .main-section__subtitle{
+        padding-bottom: 0.5rem;
+    }
+
+    .main-section__title{
+        line-height: 3rem;
+        font-size: 3rem;
+    }
+
+    .main-section__description{
+        padding-top: 0.5rem;
+    }
+
+    
+
+    .statistics{
+        padding: 1rem;
+    }
+
+    .statistic-items{
+        display: block;
+        flex-direction: row;
+        transform: scale(0.8);
+    }
+
+    .statistic-item{
+        margin-top: 0.5rem;
+    }
+
+    .statistic-item__description{
+        text-align: center;
+    }
+
+
+    .courses{
+        padding-top: 1rem;
+        padding-left: 3rem;
+    }
+
+    .courses > div{
+        width: 100%;
+    }
+
+    .course__images{
+        display: none;
+    }
+
+    .course__info{
+        padding-top: 0;
+    }
+
+    .course__title{
+        padding-top: 0.5rem;
+    }
+
+    .course__description{
+        padding: 0.5rem 0;
+    }
+
+    .course__learn-more i{
+        font-size: 1.1rem;
+    }
+
+
+
+    .section__info{
+        padding-top: 1rem;
+        padding-left: 3rem;
+    }
+
+    .quality__posts{
+        padding: 1rem 3rem;
+    }
+
+    .quality__post{
+        width: 48%;
+    }
+
+    .quality__postone{
+        display: none;
+    }
+
+    .quality__post-download,
+    .quality__post-price{
+        display: none;
+    }
+
+    .price-boxes{
+        padding: 1rem 3rem;
+    }
+
+    .prices-box__two{
+        display: none;
+    }
+
+    .prices-box__first{
+        width: 47%;
+        height: 520px;
+        overflow: hidden;
+    }
+
+    .first-icon{
+        margin-left: 5.1rem;
+    }
+
+    .new{
+        display: none;
+    }
+
+    /* Tachers section */
+
+    .teachers{
+        padding: 1rem 3rem;
+    }
+
+    .teachers__blogs > div {
+        width: 48%;
+        height: 310px;
+    }
+
+    .teacher__blog-image img{
+        padding: 1rem 3rem ;
+        margin: 0;
+    }
+
+    .teacher__blog-name,
+    .teacher__blog-position{
+        display: none;
+    }
+
+    /* Newslatter section */
+
+    .newslatter__info{
+        padding-top: 2rem;
+    }
+
+    .email{
+        width: 480px;
+        margin-bottom: 1rem;
+    }
+
+
+    .footer__items{
+        display: none;
+    }
+
+    .footer__item-icons{
+        display: flex;
+        margin-left: 0;
+        margin-top: -0.5rem;
+    }
+
+    .footer__navbar{
+        overflow: hidden;
+    }
+
+    .footer__navbar-text{
+        padding: 0.5rem 2rem;
+        line-height: 3rem;
+        width: 320px;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-buttons{
+        position: absolute;
+        padding-left: 0;
+        right: 0;
+    }
+
+    .hero__img{
+        top: -150px;
+        left: -200px;
+    }
+
+    .navbar{
+        width: 100%;
+        min-width: 550px;
+    }
+
+    .navbar__action{
+        width: 100px;
+    }
+
+    /* Card section */
+
+    .card{
+        top: 2rem;
+        left: 20%;
+        width: 80%;
+    }
+
+    .card-item{
+        padding-left: 1rem;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .card-item__image img{
+        margin-top: 1rem;
+        margin: 1rem -20%;
+    }
+
+
+
+}
+
