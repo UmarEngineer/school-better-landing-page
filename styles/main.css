@@ -876,7 +876,10 @@ body{
     .main-section__image{
         transform: scale(0.7);
         margin-top: -100px;
-        
+    }
+
+    .course__images{
+        transform: scale(0.8);
     }
 }
 
@@ -900,7 +903,11 @@ body{
         padding-top: 15px;
     }
 
+    /* Course section */
 
+    .course__images{
+        transform: scale(0.6);
+    }
 
 }
 
@@ -920,13 +927,26 @@ body{
     }
 
     /* Card section */
-
+    
     .card{
         top: 50px;
+        overflow: hidden;
     }
 
     .card-item__description{
         padding-right: 30px;
+    }
+
+    /* Statictics section */
+
+    .statistics{
+        padding-top: 100px;
+    }
+
+    /* Course section */
+
+    .course__images{
+        right:-50px;
     }
 }
 
@@ -938,6 +958,11 @@ body{
 
     .main-section__image img{
             right: -220px;
+    }
+
+    .main-section__get{
+       font-size: 10px;
+       text-align: center; 
     }
 
     .card{
@@ -996,6 +1021,30 @@ body{
         margin-top: 1rem;
         padding-left: 1.5rem;
     }
+
+    /* Statictics section */
+
+        
+
+    .statistics{
+        padding: 3rem;
+        position: relative;
+        z-index: 12;
+    }
+
+    .statistic-items{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .statistic-item{
+        margin-top: 0.5rem;
+    }
+
+    .statistic-item__description{
+        text-align: center;
+    }
 }
 
 @media  only screen and (max-width: 768px) {
@@ -1046,24 +1095,17 @@ body{
         padding-top: 0.5rem;
     }
 
-    
+    /* Statictics section */
 
     .statistics{
-        padding: 1rem;
+        width: 80%;
+        padding-top: 3rem ;
+        padding-left: 0;
     }
 
     .statistic-items{
-        display: block;
-        flex-direction: row;
-        transform: scale(0.8);
-    }
+        width: 80%;
 
-    .statistic-item{
-        margin-top: 0.5rem;
-    }
-
-    .statistic-item__description{
-        text-align: center;
     }
 
 
