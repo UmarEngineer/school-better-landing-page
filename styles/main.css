@@ -302,6 +302,11 @@ body{
     width: 100px;
     height: 10px;
     background-color: rgb(201, 54, 54);
+    transition: 1s;
+}
+
+.red-line2:hover{
+    transform: scaleX(2);
 }
 
 .course__title{
@@ -971,7 +976,9 @@ body{
 
 @media screen and (max-width: 1000px) {
     
-    .navabr
+    .navbar{
+        padding-left: 7rem;
+    }
 
     .navbar-buttons{
         padding-left: 0;
@@ -1158,8 +1165,13 @@ body{
 
 
     .courses{
-        padding-top: 1rem;
+        padding-top: 5rem;
+        text-align: center;
         padding-left: 3rem;
+    }
+
+    .red-line2{
+        margin: 0 auto;
     }
 
     .courses > div{
