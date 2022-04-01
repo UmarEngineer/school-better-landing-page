@@ -329,15 +329,15 @@ body{
     top: 3.5px;    
 }
 
-.course__image{
+.course__images{
     padding-top: -3.125rem;
     position: relative;
 }
 
 .course__image-top__box{
     position: absolute;
-    top: 200px;
-    left: 760px;
+    top: -10px;
+    left: -70px;
     width: 60px;
     height: 80px;
     background-color: rgb(210, 252, 238);
@@ -346,21 +346,21 @@ body{
 
 .course__image-top img{
     position: absolute;
-    top: 210px;
-    left: 710px;
+    top: 0;
+    left: -120px;
     z-index: 2;
 }
 
 .course__image-bottom img{
     position: absolute;
-    top: 480px;
-    left: 700px;
+    top: 300px;
+    left: -130px;
 }
 
 .course__image-bottom__box{
     position: absolute;
-    top: 480px;
-    left: 1170px;
+    top: 280px;
+    left: 340px;
     width: 35px;
     height: 65px;
     background-color: rgb(255, 224, 179);
