@@ -1460,6 +1460,27 @@ body{
 }
 
 @media screen and (max-width: 376px) {
+    .container{
+        padding-left: -4rem;
+        padding-right: 2rem;
+    }
+
+    .navbar{
+        padding-left: 2rem;
+    }
+
+    .main-section__info{
+        padding-left: 2rem;
+    }
+
+    .main-section__buttons{
+        margin-left: -45px;
+    }
+
+    .courses{
+        padding-left: 2rem;
+    }
+    
     .card{
         transform: scale(0.7);
         left: -10px;
