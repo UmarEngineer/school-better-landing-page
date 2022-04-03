@@ -1472,5 +1472,9 @@ body{
         column-gap: 5px;
         margin:  0 1.3rem;
     }
+
+    .course__description{
+        text-align: justify;
+    }
 }
 
