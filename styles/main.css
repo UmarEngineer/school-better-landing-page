@@ -906,6 +906,13 @@ body{
         right: 5%;
     }
 
+    /* Prices section */
+
+    .first-icon,
+    .two-icon{
+        margin-left: 37%;
+    }
+
 
 
 
@@ -977,6 +984,17 @@ body{
         width: 100px;
         font-size: 0.7rem;
         padding-top: 0.7rem;
+    }
+
+    /* Prices section */
+
+    .prices-box__first:nth-last-child(3){
+        display: none;
+    }
+
+    .prices-box__first, 
+    .prices-box__two{
+        width: 47%;
     }
 
 }
@@ -1097,6 +1115,16 @@ body{
     .quality__posts{
         padding: 1rem 7rem;
     }
+
+    /* Prices section */
+
+    .section__info{
+        padding: 3rem 7rem;
+    }
+
+    .price-boxes{
+        padding: 3rem 7rem;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1173,6 +1201,13 @@ body{
 
     .statistic-item__description{
         text-align: center;
+    }
+
+    /* Prices section */
+
+    .price-boxes{
+        height: 580px;
+        overflow: hidden;
     }
 }
 
@@ -1308,26 +1343,15 @@ body{
         display: none;
     }
 
+    /* Prices section */
+
+    .section__info{
+        padding:  1rem 3rem ;
+    }
+
     .price-boxes{
-        padding: 1rem 3rem;
-    }
-
-    .prices-box__two{
-        display: none;
-    }
-
-    .prices-box__first{
-        width: 47%;
-        height: 520px;
-        overflow: hidden;
-    }
-
-    .first-icon{
-        margin-left: 5.1rem;
-    }
-
-    .new{
-        display: none;
+        height: 560px;
+        padding: 2rem 3rem;
     }
 
     /* Tachers section */
@@ -1439,6 +1463,17 @@ body{
         display: none;
     }
 
+    /* Price section */
+
+    .first-icon,
+    .two-icon{
+        margin-left: 35%;
+    }
+
+    .price-boxes{
+        height: 540px;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -1471,7 +1506,35 @@ body{
         display: block;
     }
 
+    /* Prices section */
 
+    .price__description,
+    .price__description-two{
+        display: none;
+    }
+
+    .price-boxes{
+        height: 380px;
+    }
+
+    .price__date{
+        padding-bottom: 0;
+    }
+    
+    .price__price,
+    .price__price-two{
+        padding-top: 0;
+    }
+
+    .price__title,
+    .price__title-two{
+        padding-bottom: 0;
+    }
+
+    .first-icon,
+    .two-icon{
+        margin-left: 30%;
+    }
 
 
 }
@@ -1555,7 +1618,7 @@ body{
     }
 
     .quality-info{
-        padding-left: 2rem;
+        padding-left: 3rem;
     }
 
     .section__title{
@@ -1631,6 +1694,55 @@ body{
 
     .quality__posts{
         padding: 1rem 0 0 2rem;
+    }
+
+    /* Price section */
+
+    .price-boxes{
+        padding: 1rem 0 0 2rem;
+        height: 260px;
+    }
+
+    .new{
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        right: -10px;
+        top: -10px;
+        padding-top: 0.7rem;
+        font-weight: 400;
+    }
+
+    .first-icon,
+    .two-icon{
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        margin-left: 35%;
+    }
+
+    .price__title,
+    .price__title-two{
+        font-size: 1.5rem;
+    }
+
+    .price__price,
+    .price__price-two{
+        font-size: 2rem;
+    }
+
+    .price__action,
+    .price__action-two{
+        margin: 6% 17.5%;
+        height: 30px;
+        width: 65%;
+    
+    }
+
+    .section__info{
+        padding-left: 2rem;
+        padding-top: 2rem;
     }
 }
 
