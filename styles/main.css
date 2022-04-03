@@ -1477,6 +1477,7 @@ body{
 
     .course__description{
         text-align: justify;
+        width: 94%;
     }
 }
 
