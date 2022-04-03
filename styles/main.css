@@ -1320,7 +1320,7 @@ body{
 
     .navbar{
         width: 100%;
-        min-width: 550px;
+        min-width: 300px;
     }
 
     .navbar__action{
@@ -1344,6 +1344,58 @@ body{
     .card-item__image img{
         margin-top: 1rem;
         margin: 1rem -20%;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .navbar-buttons{
+        transform: scale(0.8);
+    }
+
+    .hero__img img{
+        display: none;
+    }
+
+    .card{
+        left: 3rem;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 410px) {
+
+    .navbar-buttons{
+        display: none;
+    }
+
+    .main-section__title{
+        font-size: 2rem;
+        line-height: 2rem; 
+    }
+
+    .main-section__description{
+        font-size: 0.6rem;
+        line-height: 1rem;
+        padding-top: 0;  
+    }
+
+    .main-section__buttons{
+        transform: scale(0.7);
+        margin-left: -55px;
+        padding-top: 10px;
+    }
+
+    .card{
+        transform: scale(0.8);
     }
 
 
