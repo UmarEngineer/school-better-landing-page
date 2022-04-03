@@ -1360,10 +1360,22 @@ body{
 
     .card{
         left: 3rem;
+        overflow: visible;
     }
 
     .container{
         width: 100%;
+    }
+
+    .statistics{
+        padding: 3rem 0;
+    }
+
+    .statistic-items{
+        margin-left: 3rem;
+        margin-right: auto;
+        width: 100%;
+        display: block;
     }
 
 
@@ -1394,13 +1406,7 @@ body{
         padding-top: 10px;
     }
 
-    .card{
-        transform: scale(0.6);
-        left: -15px;
-        top: 0.5rem;
-        width: 100%;
-        overflow: visible;
-    }
+    
 
     .statistics{
         padding-top: 0.5rem;
@@ -1410,10 +1416,13 @@ body{
     }
 
     .statistic-items{
-        margin-left: auto;
+        padding-top: 2rem;
+        margin-left: 50px;
         width: 100%;
         column-gap: 10px;
+        display: flex;
     }
+
 
     .statistic-item__title{
         font-size: 2rem;
@@ -1447,5 +1456,21 @@ body{
 
 
 
+}
+
+@media screen and (max-width: 376px) {
+    .card{
+        transform: scale(0.8);
+        left: 15px;
+        top: 0.5rem;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .statistic-items{
+        padding-top: 0.5rem;
+        column-gap: 5px;
+        margin:  0 1.3rem;
+    }
 }
 
