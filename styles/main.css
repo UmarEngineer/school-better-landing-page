@@ -1462,11 +1462,11 @@ body{
 @media screen and (max-width: 376px) {
     .card{
         transform: scale(0.8);
-        left: 15px;
+        left: 20px;
         right: 15px;
         top: 0.5rem;
-        width: 96%;
-        overflow: visible;
+        width: 60%;
+        margin: 0;
     }
 
     .statistic-items{
