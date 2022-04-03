@@ -892,6 +892,19 @@ body{
         transform: scale(0.8);
     }
 
+    /* Quality section  */
+
+    .quality__post-icons{
+        transform: scale(0.7);
+        left: 15px;
+        top: 250px;
+    }
+
+    .quality__post-rate{
+        float: right;
+        right: 5%;
+    }
+
 
 
 
@@ -933,6 +946,38 @@ body{
         transform: scale(0.6);
     }
 
+    /* Quality section */
+
+    .quality{
+        padding-top: 0;
+    }
+
+    .quality-info{
+        padding-top: 3rem;
+
+    }
+
+    .quality__posts{
+        padding-top: 3rem;
+    }
+
+    .quality__post-icons{
+        min-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+    }
+
+    .quality__post-subtitle{
+        font-size: 0.8rem;
+    }
+
+    .quality__post-learn-more{
+        width: 100px;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+    }
+
 }
 
 
@@ -971,6 +1016,24 @@ body{
 
     .course__images{
         right:-50px;
+    }
+
+    /* Quality section */
+
+
+
+    .quality__post:nth-last-child(3){
+        display: none;
+    }
+
+    .quality__post, 
+    .quality__postone{
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    .quality__post-rate{
+        display: none;
     }
 }
 
@@ -1022,6 +1085,16 @@ body{
     .course__description{
         font-size: 0.8rem;
         padding: 0;
+    }
+
+    /* Quality section */
+
+    .quality-info{
+        padding-left: 7rem;
+    }
+
+    .quality__posts{
+        padding: 1rem 7rem;
     }
 }
 
@@ -1209,16 +1282,28 @@ body{
         padding: 1rem 3rem;
     }
 
+    .quality__post:nth-last-child(3){
+        display:inline-block;
+    }
+
     .quality__post{
         width: 48%;
+    }
+
+    .quality__post-image img{
+        width: 102%;
+        height: 80%;
     }
 
     .quality__postone{
         display: none;
     }
 
-    .quality__post-download,
-    .quality__post-price{
+    .quality__post-rate{
+        display: flex;
+    }
+
+    .quality__post-icons{
         display: none;
     }
 
@@ -1346,6 +1431,13 @@ body{
         margin: 1rem -20%;
     }
 
+    /* Quality section */
+
+    .quality__post-download,
+    .quality__post-price{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -1455,6 +1547,35 @@ body{
         padding: 0.5rem 0;
     }
 
+    /* Quality section */
+
+    .quality{
+        padding-top: 1.5rem;
+    }
+
+    .quality-info{
+        padding-left: 2rem;
+    }
+
+    .section__title{
+        font-size: 1.7rem; 
+    }
+
+    .section__description{
+        font-size: 0.8rem;
+    }
+
+    .quality__post-description{
+        display: none;
+    }
+
+    .quality__post-learn-more{
+        height: 30px;
+        padding-top: 0.5rem;
+        margin-top: 0.8rem;
+        margin-left: -0.2rem;
+    }
+
 
 
 }
@@ -1495,6 +1616,20 @@ body{
     .course__description{
         text-align: justify;
         width: 94%;
+    }
+
+    /* Quality section */
+
+    .quality__post-rate{
+        display: none;
+    }
+
+    /* .quality__post-learn-more{
+        margin-bottom: 0.1rem;
+    } */
+
+    .quality__posts{
+        padding: 1rem 0 0 2rem;
     }
 }
 
