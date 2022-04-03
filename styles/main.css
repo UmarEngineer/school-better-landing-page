@@ -531,6 +531,7 @@ body{
     padding-top: 2.5rem;
     background-color: white;
     box-sizing: border-box;
+    position: relative;
 }
 
 .prices-box__two{
@@ -698,9 +699,9 @@ body{
     text-align: center;
     padding-top: 1.5625rem;
     font-weight: 700;
-    position: relative;
-    top: -920px;
-    left: 1070px;
+    position: absolute;
+    top: -30px;
+    right: -40px;
 }
 
 /* Our teachers section styles */
