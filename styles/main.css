@@ -1624,9 +1624,9 @@ body{
         display: none;
     }
 
-    /* .quality__post-learn-more{
-        margin-bottom: 0.1rem;
-    } */
+    .quality__post-learn-more{
+        overflow: hidden;
+    }
 
     .quality__posts{
         padding: 1rem 0 0 2rem;
