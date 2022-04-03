@@ -1412,6 +1412,37 @@ body{
     .statistic-items{
         margin-left: auto;
         width: 100%;
+        column-gap: 10px;
+    }
+
+    .statistic-item__title{
+        font-size: 2rem;
+    }
+
+    .statistic-item__description{
+        font-size: 0.8rem;
+    }
+
+    .red-line2{
+        height: 3px;
+    }
+
+    .courses{
+        padding-top: 6rem;
+    }
+
+    .course__info{
+        text-align: left;
+    }
+
+    .course__title{
+        padding: 0.5rem 0;
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .course__description{
+        padding: 0.5rem 0;
     }
 
 
