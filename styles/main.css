@@ -1395,7 +1395,23 @@ body{
     }
 
     .card{
+        transform: scale(0.6);
+        left: -15px;
+        top: 0.5rem;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .statistics{
+        padding-top: 0.5rem;
         transform: scale(0.8);
+        width: 100%;
+        padding: 0;
+    }
+
+    .statistic-items{
+        margin-left: auto;
+        width: 100%;
     }
 
 
