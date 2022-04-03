@@ -1397,7 +1397,8 @@ body{
     .main-section__description{
         font-size: 0.6rem;
         line-height: 1rem;
-        padding-top: 0;  
+        padding-top: 10px;
+        letter-spacing: 1px;  
     }
 
     .main-section__buttons{
