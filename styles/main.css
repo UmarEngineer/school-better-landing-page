@@ -6,6 +6,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -103,6 +104,18 @@ body{
     position: relative;
     top: 5px;
 }
+
+.navbar__toggle{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+
 
 /* Main section styles */
 
@@ -1183,12 +1196,48 @@ body{
 
 @media screen and (max-width: 900px) {
    
+    /* Navbar section */
+
     .navbar{
         padding-left: 3rem;
         display: flex;
         flex-wrap: wrap;
     }
-   
+    
+    .navbar-items{
+        display: none;
+        padding: 2rem;
+        padding-top: 6rem;
+    }
+
+    .navbar-item{
+        text-align: right;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+    }
+    
+    .navbar-buttons{
+        position: absolute;
+        right: 80px;
+    }
+
+    .navbar__toggle{
+        z-index: 2;
+        display: inline-block;
+    }
+
+    .navbar__toggle-open{
+        position: absolute;
+        top: 0;
+        display: block;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: #252B42;
+    }
+    
+    /* Main section */
     .main-section__image img{
         right: -420px;
     }
@@ -1206,13 +1255,7 @@ body{
         display: none;
     }
     
-    .navbar-items{
-        display: none;
-    }
-    .navbar-buttons{
-        position: absolute;
-        right: 20px;
-    }
+
 
     /* Card section */
 
