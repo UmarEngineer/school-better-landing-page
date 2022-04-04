@@ -1608,6 +1608,11 @@ body{
         display: none;
     }
 
+    .quality__post-sale{
+        top: 10px;
+        left: 10px;
+    }
+
     /* Price section */
 
     .first-icon,
@@ -2003,6 +2008,12 @@ body{
         margin-left: 0;
     }
 
+    .quality__post-sale{
+        transform: scale(0.8);
+        top: 5px;
+        left: 5px;
+    }
+
     .quality__post-learn-more i{
         display: none;
     }
@@ -2043,7 +2054,7 @@ body{
         height: 50px;
         font-size: 1.3rem;
         padding-top: 1rem;
-        margin-left: 35%;
+        margin-left: 30%;
     }
 
     .price__title,
@@ -2146,6 +2157,11 @@ body{
 
     .card{
         transform: scale(0.6);
+    }
+
+    .first-icon,
+    .two-icon{
+        margin-left: 28%;
     }
 }
 
