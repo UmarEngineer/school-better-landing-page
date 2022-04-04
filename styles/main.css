@@ -2008,13 +2008,13 @@ body{
     }
 
     .quality__posts{
-        padding: 1rem 0 0 2rem;
+        padding: 1rem 1rem 0 2rem;
     }
 
     /* Price section */
 
     .price-boxes{
-        padding: 1rem 0 0 2rem;
+        padding: 1rem 1rem 0 2rem;
         height: 240px;
     }
 
@@ -2070,11 +2070,20 @@ body{
     }
 
     .teachers{
-        padding: 2rem 0 2rem 2rem;
+        padding: 2rem 1rem 2rem 2rem;
     }
     
     .teacher__blog-image img{
         margin-left: 5%;
+    }
+
+    .teacher__blog-description{
+        font-size: 0.6rem ;
+        text-align: justify;
+    }
+
+    .teacher__blog-rate{
+        font-size: 0.8rem;
     }
 
     /* Newslatter section */
@@ -2087,12 +2096,22 @@ body{
         border-radius: 5px;
         font-size: 0.7rem;
         font-weight: 400;
+        height: 20px;
+        margin-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        letter-spacing: 0.2rem;
+        font-family:serif;
     }
 
     .newslatter__action{
         border-radius: 5px;
-        top: 1px;
-        left: -10px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        width: 80px;
+        top: 0px;
+        height: 20px;
+        left: -5px;
+        border: none;
     }
 
     /* Footer section */
@@ -2101,8 +2120,20 @@ body{
         padding-top: 1rem;
     } */
 
+    .footer__navbar{
+        height: 50px;
+    }
+
+    .footer__navbar-text{
+        font-size: 0.6rem;
+    }
+
     .footer__navbar-text2{
         display: none;
+    }
+
+    .footer__item-icons{
+        transform: scale(0.6);
     }
 
 }
