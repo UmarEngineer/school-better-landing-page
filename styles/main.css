@@ -1233,6 +1233,11 @@ body{
         overflow: hidden;
         padding-top: 2rem;
     }
+    
+    .price__possible,
+    .price__possible-two{
+        display: none;
+    }
 }
 
 @media  only screen and (max-width: 768px) {
@@ -1820,10 +1825,7 @@ body{
         padding-top: 1rem;
     }
     
-    .price__possible,
-    .price__possible-two{
-        display: none;
-    }
+
 
     
 
