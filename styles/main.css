@@ -1152,6 +1152,7 @@ body{
         padding: 0;
     }
 
+
     /* Quality section */
 
     .quality-info{
@@ -1160,6 +1161,10 @@ body{
 
     .quality__posts{
         padding: 1rem 7rem;
+    }
+
+    .quality__post-icons{
+        margin-left: 15%;
     }
 
     /* Prices section */
@@ -1309,6 +1314,13 @@ body{
     .statistic-item__description{
         text-align: center;
     }
+
+    /* Quality section */
+
+    .quality__post-icons{
+        margin-left: 10%;
+    }
+
 
     /* Prices section */
 
