@@ -1963,6 +1963,10 @@ body{
     .statistics{
         width: 100%;
     }
+
+    .card{
+        transform: scale(0.6);
+    }
 }
 
 
