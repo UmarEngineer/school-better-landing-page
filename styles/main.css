@@ -1100,7 +1100,7 @@ body{
     }
 
     .main-section__get{
-       font-size: 10px;
+       font-size: 12px;
        text-align: center; 
     }
 
@@ -1937,6 +1937,7 @@ body{
     .email{
         border-radius: 5px;
         font-size: 0.7rem;
+        font-weight: 400;
     }
 
     .newslatter__action{
