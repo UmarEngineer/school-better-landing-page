@@ -1141,6 +1141,12 @@ body{
     .teacher__blog-image img{
         margin: 1.875rem 32%;
     }
+
+    /* Newslatter */
+
+    .newslatter__info{
+        padding-top: 5rem;
+    }
     
 }
 
@@ -1425,6 +1431,16 @@ body{
         width: 320px;
     }
 
+    /* Newslatter section */
+
+    .newslatter__input{
+        transform: scaleX(0.7);
+    }
+
+    .email{
+        width:450px ;
+    }
+
 }
 
 
@@ -1509,6 +1525,25 @@ body{
         padding: 0 1rem;
     }
 
+    /* Newslatter section */
+
+    .newslatter__info{
+        padding-left: 3rem;
+    }
+
+    .newslatter__input{
+        padding-top: 2rem;
+    }
+
+    .email{
+        width: 350px;
+        height: 40px;
+    }
+
+    .newslatter__action{
+        height: 40px;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -1582,6 +1617,20 @@ body{
         margin-right: 20%;
     }
 
+    /* Newslatter section */
+
+    .newslatter__title{
+        font-size: 2.5rem;
+    }
+
+    .email{
+        width: 250px;
+        height: 30px;
+    }
+
+    .newslatter__action{
+        height: 30px;
+    }
 
 }
 
@@ -1695,6 +1744,10 @@ body{
     .teacher__blog-image img{
         margin: 0rem 10% 0;
         transform: scale(0.6);
+    }
+
+    .newslatter__info{
+        text-align: left;
     }
 
 
@@ -1813,6 +1866,20 @@ body{
     
     .teacher__blog-image img{
         margin-left: 5%;
+    }
+
+    /* Newslatter section */
+
+    .newslatter__input{
+        flex-direction: column;
+    }
+
+    .email{
+        border-radius: 5px;
+    }
+
+    .newslatter__action{
+        border-radius: 5px;
     }
 }
 
