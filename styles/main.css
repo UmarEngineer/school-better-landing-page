@@ -1819,6 +1819,13 @@ body{
     .prices-box__two{
         padding-top: 1rem;
     }
+    
+    .price__possible,
+    .price__possible-two{
+        display: none;
+    }
+
+    
 
     .new{
         width: 40px;
