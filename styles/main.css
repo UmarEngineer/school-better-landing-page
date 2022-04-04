@@ -1888,6 +1888,25 @@ body{
         padding-left: 2rem;
     }
 
+    .navbar__toggle{
+        right: 16px;
+    }
+
+    .navbar-items{
+        padding-top: 4rem;
+        padding-right: 1rem;
+    }
+
+    .navbar-item{
+        font-size: 1.5rem;
+    }
+
+    .navbar-buttons{
+        top: 180px;
+    }
+
+    /* Main section */
+
     .main-section__info{
         padding-left: 2rem;
     }
