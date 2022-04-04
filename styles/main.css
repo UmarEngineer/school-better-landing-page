@@ -1020,9 +1020,9 @@ body{
     }
     
     .main-section__image img{
-        transform: scale(0.7);
+        transform: scale(0.8);
         position: absolute;
-        margin-top: 80px;
+        margin-top: 180px;
         margin-left: 50px;
     }
 
@@ -1096,7 +1096,7 @@ body{
     }
 
     .main-section__image img{
-            right: -220px;
+        right: -170px;
     }
 
     .main-section__get{
