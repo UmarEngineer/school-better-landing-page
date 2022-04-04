@@ -115,6 +115,16 @@ body{
     cursor: pointer;
 }
 
+.x-icon{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
 
 
 /* Main section styles */
@@ -1539,7 +1549,7 @@ body{
     .navbar-buttons{
         position: absolute;
         padding-left: 0;
-        right: 0;
+        right: 70px;
     }
 
     .hero__img img{
@@ -1643,7 +1653,27 @@ body{
 @media screen and (max-width:500px) {
 
     .navbar-buttons{
-        transform: scale(0.8);
+        display: none;
+    }
+
+    .navbar-buttons-open{
+        display: block;
+        position: absolute;
+        top: 250px;
+        right: 0;
+        z-index: 99;
+        background-color: #252B42;
+        width: 100%;
+    }
+
+    .login{
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__action{
+        width: 100%;
     }
 
     .hero__img img{
@@ -1735,9 +1765,9 @@ body{
 
 @media screen and (max-width: 410px) {
 
-    .navbar-buttons{
+    /* .navbar-buttons{
         display: none;
-    }
+    } */
 
     .main-section__title{
         font-size: 2rem;
