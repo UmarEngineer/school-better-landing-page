@@ -1626,6 +1626,7 @@ body{
     .email{
         width: 250px;
         height: 30px;
+        font-size: 0.9rem;
     }
 
     .newslatter__action{
@@ -1876,6 +1877,7 @@ body{
 
     .email{
         border-radius: 5px;
+        font-size: 0.7rem;
     }
 
     .newslatter__action{
