@@ -724,7 +724,7 @@ body{
 }
 
 .teacher__blog-image img{
-    margin: 1.875rem 10.625rem;
+    margin: 1.875rem 35%;
     border-radius: 50%;
 }
 
@@ -912,6 +912,7 @@ body{
     .two-icon{
         margin-left: 37%;
     }
+
 
 
 
@@ -1125,6 +1126,22 @@ body{
     .price-boxes{
         padding: 3rem 7rem;
     }
+
+    /* teachers section */
+
+    .teachers{
+        padding-top: 2rem;
+        padding-left: 7rem;
+    }
+
+    .teachers__blogs{
+        padding-top: 3rem;
+    }
+
+    .teacher__blog-image img{
+        margin: 1.875rem 32%;
+    }
+    
 }
 
 @media screen and (max-width: 900px) {
@@ -1206,8 +1223,9 @@ body{
     /* Prices section */
 
     .price-boxes{
-        height: 580px;
+        height: 550px;
         overflow: hidden;
+        padding-top: 2rem;
     }
 }
 
@@ -1357,17 +1375,17 @@ body{
     /* Tachers section */
 
     .teachers{
-        padding: 1rem 3rem;
+        padding: 3rem 3rem;
     }
 
     .teachers__blogs > div {
         width: 48%;
         height: 310px;
+        overflow: hidden;
     }
 
     .teacher__blog-image img{
-        padding: 1rem 3rem ;
-        margin: 0;
+        margin: 1.875rem 30%;
     }
 
     .teacher__blog-name,
@@ -1474,6 +1492,23 @@ body{
         height: 540px;
     }
 
+    /* Teacchers section */
+
+    .teachers__blogs > div{
+        height: 280px;
+    }
+
+    .teacher__blog-image img{
+        margin: 1.5rem 23% 0;
+        transform: scale(0.8);
+    }
+
+    .teacher__blog-description{
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -1534,6 +1569,17 @@ body{
     .first-icon,
     .two-icon{
         margin-left: 30%;
+    }
+
+    .section__title{
+        line-height: 2.7rem;
+    }
+
+    /* Teachers section */
+
+    .teacher__blog-image img{
+        margin-left: 15%;
+        margin-right: 20%;
     }
 
 
@@ -1640,6 +1686,17 @@ body{
         margin-left: -0.2rem;
     }
 
+    /* Teachers section */
+
+    .teachers__blogs > div{
+        height: 260px;
+    }
+
+    .teacher__blog-image img{
+        margin: 0rem 10% 0;
+        transform: scale(0.6);
+    }
+
 
 
 }
@@ -1743,6 +1800,14 @@ body{
     .section__info{
         padding-left: 2rem;
         padding-top: 2rem;
+    }
+
+    .teachers{
+        padding: 2rem 0 2rem 2rem;
+    }
+    
+    .teacher__blog-image img{
+        margin-left: 5%;
     }
 }
 
