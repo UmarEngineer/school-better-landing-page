@@ -1989,8 +1989,22 @@ body{
         display: none;
     }
 
+    .quality__post-info{
+        padding: 0.8rem;
+    }
+
     .quality__post-learn-more{
         overflow: hidden;
+        padding-bottom: 1rem;
+        width: 72px;
+        height: 25px;
+        padding: 0.17rem 0.5rem;
+        margin-top: 0.5rem;
+        margin-left: 0;
+    }
+
+    .quality__post-learn-more i{
+        display: none;
     }
 
     .quality__posts{
