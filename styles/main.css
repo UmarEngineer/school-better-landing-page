@@ -1250,6 +1250,7 @@ body{
         z-index: -1;
         width: 100%;
         background-color: #252B42;
+        transition: 1s;
     }
     
     /* Main section */
