@@ -761,7 +761,6 @@ body{
     font-weight: 700;
 }
 
-/* #252B42 */
 .teacher__blog-rate{
     color: #F3CD03;
     font-size: 1.1rem;
@@ -783,8 +782,6 @@ body{
     font-weight: 900;
     padding-top: 0.625rem;
 }
-
-
 /* Newslater section styles */
 
 .newslatter__info{
@@ -945,11 +942,6 @@ body{
     .two-icon{
         margin-left: 37%;
     }
-
-
-
-
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -1035,8 +1027,6 @@ body{
     .footer__item{
         font-size: 0.8rem;
     }
-
-
 }
 
 
@@ -1275,10 +1265,8 @@ body{
     .main-section__image{
         display: none;
     }
-
-
-
     /* Card section */
+
 
     .card{
         top: 2rem;
@@ -1298,9 +1286,6 @@ body{
     }
 
     /* Statictics section */
-
-
-
     .statistics{
         padding: 3rem;
         position: relative;
@@ -1326,7 +1311,6 @@ body{
     .quality__post-icons{
         margin-left: 10%;
     }
-
 
     /* Prices section */
 
@@ -1354,12 +1338,10 @@ body{
 
 @media  only screen and (max-width: 768px) {
 
-
     .container{
         width: 100%;
         margin-top: -5px;
     }
-
 
     /* Navigation section */
 
@@ -1370,8 +1352,6 @@ body{
     .navbar-buttons{
         padding-left: 30%;
     }
-
-
 
     .main-section > div{
         width: 100%;
@@ -1384,8 +1364,6 @@ body{
         left: -200px;
         z-index: -2;
     }
-
-
 
     .main-section__subtitle{
         padding-bottom: 0.5rem;
@@ -1410,9 +1388,7 @@ body{
 
     .statistic-items{
         width: 80%;
-
     }
-
 
     .courses{
         padding-top: 5rem;
@@ -1447,8 +1423,6 @@ body{
     .course__learn-more i{
         font-size: 1.1rem;
     }
-
-
 
     .section__info{
         padding-top: 1rem;
@@ -1555,7 +1529,6 @@ body{
     }
 
 }
-
 
 @media screen and (max-width:600px) {
 
@@ -1918,9 +1891,6 @@ body{
     .newslatter__info{
         text-align: left;
     }
-
-
-
 }
 
 @media screen and (max-width: 376px) {
@@ -2024,8 +1994,6 @@ body{
         left: 5px;
     }
 
-
-
     .quality__posts{
         padding: 1rem 1rem 0 2rem;
     }
@@ -2041,10 +2009,6 @@ body{
     .prices-box__two{
         padding-top: 1rem;
     }
-
-
-
-
 
     .new{
         width: 40px;
