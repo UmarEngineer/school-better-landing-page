@@ -154,7 +154,7 @@ body{
 }
 
 .main-section__subtitle{
-    padding-bottom: 35px;    
+    padding-bottom: 35px;
 }
 
 .main-section__title{
@@ -358,7 +358,7 @@ body{
 .course__learn-more i{
     font-size: 1.5rem;
     position: relative;
-    top: 3.5px;    
+    top: 3.5px;
 }
 
 .course__images{
@@ -471,7 +471,7 @@ body{
     color: #8d5cf6;
     font-weight: 800;
     letter-spacing: 0.5px;
-    float: left;    
+    float: left;
 }
 
 .quality__post-rate{
@@ -490,7 +490,7 @@ body{
 
 .quality__post-rate i{
     color: yellow;
-    padding-right: 0.1875rem;    
+    padding-right: 0.1875rem;
 }
 
 .quality__post-title{
@@ -636,7 +636,7 @@ body{
 .gray{
     color: rgb(173, 166, 166) !important;
 }
-.price__possible i, 
+.price__possible i,
 .price__possible-two i {
     color: seagreen;
     font-size: 2rem;
@@ -647,8 +647,8 @@ body{
 
 .price__possible span{
     font-weight: bolder;
-    vertical-align: 0.5rem;   
-    color: #26335d; 
+    vertical-align: 0.5rem;
+    color: #26335d;
 }
 
 .support{
@@ -712,8 +712,8 @@ body{
 }
 .price__possible-two span{
     font-weight: bolder;
-    vertical-align: 0.5rem;   
-    color: white; 
+    vertical-align: 0.5rem;
+    color: white;
 }
 
 .new{
@@ -911,14 +911,19 @@ body{
         transform: scale(0.7);
         margin-top: -100px;
     }
-    
+
     /*  Courses section  */
-    
+
     .courses{
         padding-top: 1rem;
     }
     .course__images{
         transform: scale(0.8);
+    }
+
+    .price__possible,
+    .price__possible-two{
+        font-size: 0.9rem;
     }
 
     /* Quality section  */
@@ -948,7 +953,7 @@ body{
 }
 
 @media screen and (max-width: 1200px) {
-    
+
     .navbar-buttons{
         padding-left: 5.5rem;
     }
@@ -1021,7 +1026,7 @@ body{
         display: none;
     }
 
-    .prices-box__first, 
+    .prices-box__first,
     .prices-box__two{
         width: 47%;
     }
@@ -1037,11 +1042,11 @@ body{
 
 
 @media screen and (max-width: 1100px) {
-    
+
     .navbar-buttons{
         padding-left: 3rem;
     }
-    
+
     .main-section__image img{
         transform: scale(0.8);
         position: absolute;
@@ -1050,7 +1055,7 @@ body{
     }
 
     /* Card section */
-    
+
     .card{
         top: 50px;
         overflow: hidden;
@@ -1080,7 +1085,7 @@ body{
         display: none;
     }
 
-    .quality__post, 
+    .quality__post,
     .quality__postone{
         width: 30%;
         margin-right: 3%;
@@ -1103,7 +1108,7 @@ body{
 }
 
 @media screen and (max-width: 1000px) {
-    
+
     .navbar{
         padding-left: 7rem;
     }
@@ -1124,7 +1129,7 @@ body{
 
     .main-section__get{
        font-size: 12px;
-       text-align: center; 
+       text-align: center;
     }
 
     .card{
@@ -1199,7 +1204,7 @@ body{
     }
 
     /* Footer section */
-    
+
     .footer__items{
         padding-left: 4rem;
     }
@@ -1210,7 +1215,7 @@ body{
 }
 
 @media screen and (max-width: 900px) {
-   
+
     /* Navbar section */
 
     .navbar{
@@ -1218,7 +1223,7 @@ body{
         display: flex;
         flex-wrap: wrap;
     }
-    
+
     .navbar-items{
         display: none;
         padding: 2rem;
@@ -1231,7 +1236,7 @@ body{
         letter-spacing: 0.1rem;
         font-weight: 400;
     }
-    
+
     .navbar-buttons{
         position: absolute;
         right: 80px;
@@ -1252,7 +1257,7 @@ body{
         background-color: #252B42;
         transition: 1s;
     }
-    
+
     /* Main section */
     .main-section__image img{
         right: -420px;
@@ -1260,17 +1265,17 @@ body{
 
     .main-section > div{
         width: 100%;
-    }  
+    }
 
     .main-section__info{
         padding-left: 3rem;
         padding-top: 2rem;
     }
-    
+
     .main-section__image{
         display: none;
     }
-    
+
 
 
     /* Card section */
@@ -1294,7 +1299,7 @@ body{
 
     /* Statictics section */
 
-        
+
 
     .statistics{
         padding: 3rem;
@@ -1330,7 +1335,7 @@ body{
         overflow: hidden;
         padding-top: 2rem;
     }
-    
+
     .price__possible,
     .price__possible-two{
         display: none;
@@ -1349,7 +1354,7 @@ body{
 
 @media  only screen and (max-width: 768px) {
 
-    
+
     .container{
         width: 100%;
         margin-top: -5px;
@@ -1357,7 +1362,7 @@ body{
 
 
     /* Navigation section */
-    
+
     .navbar-brand{
         padding: 0;
     }
@@ -1599,7 +1604,7 @@ body{
         margin-top: 1rem;
         margin-left: 13% ;
         padding-left: 0;
-        
+
     }
 
     /* Quality section */
@@ -1700,6 +1705,10 @@ body{
         display: none;
     }
 
+    .quality__post-learn-more i{
+        display: none;
+    }
+
     /* Card section */
     .card{
         left: 10%;
@@ -1707,7 +1716,7 @@ body{
     }
 
     .card-item{
-        padding: 0;        
+        padding: 0;
     }
 
     .card-item__image{
@@ -1739,7 +1748,7 @@ body{
     .price__date{
         padding-bottom: 0;
     }
-    
+
     .price__price,
     .price__price-two{
         padding-top: 0;
@@ -1784,7 +1793,7 @@ body{
     }
 
     /* Footer section */
-     
+
     .footer__navbar-text{
         padding-top: 0.8rem;
         line-height: 1rem;
@@ -1800,14 +1809,14 @@ body{
 
     .main-section__title{
         font-size: 2rem;
-        line-height: 2rem; 
+        line-height: 2rem;
     }
 
     .main-section__description{
         font-size: 0.6rem;
         line-height: 1rem;
         padding-top: 10px;
-        letter-spacing: 1px;  
+        letter-spacing: 1px;
     }
 
     .main-section__buttons{
@@ -1819,7 +1828,7 @@ body{
     .card-item__image{
         margin-left: 5%;
     }
-    
+
 
     .statistics{
         padding-top: 0.5rem;
@@ -1877,7 +1886,7 @@ body{
     }
 
     .section__title{
-        font-size: 1.7rem; 
+        font-size: 1.7rem;
     }
 
     .section__description{
@@ -1915,7 +1924,7 @@ body{
 }
 
 @media screen and (max-width: 376px) {
-    
+
     .navbar{
         padding-left: 2rem;
     }
@@ -1950,7 +1959,7 @@ body{
     .courses{
         padding-left: 2rem;
     }
-    
+
     /* Card section */
 
     .card{
@@ -2015,9 +2024,7 @@ body{
         left: 5px;
     }
 
-    .quality__post-learn-more i{
-        display: none;
-    }
+
 
     .quality__posts{
         padding: 1rem 1rem 0 2rem;
@@ -2026,7 +2033,7 @@ body{
     /* Price section */
 
     .price-boxes{
-        padding: 1rem 1rem 0 2rem;
+        padding: 1rem 2rem 0 2rem;
         height: 240px;
     }
 
@@ -2034,10 +2041,10 @@ body{
     .prices-box__two{
         padding-top: 1rem;
     }
-    
 
 
-    
+
+
 
     .new{
         width: 40px;
@@ -2073,7 +2080,7 @@ body{
         margin: 6% 17.5%;
         height: 30px;
         width: 65%;
-    
+
     }
 
     .section__info{
@@ -2082,11 +2089,11 @@ body{
     }
 
     .teachers{
-        padding: 2rem 1rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
     }
-    
+
     .teacher__blog-image img{
-        margin-left: 5%;
+        margin-left: -5%;
     }
 
     .teacher__blog-description{
@@ -2099,6 +2106,10 @@ body{
     }
 
     /* Newslatter section */
+
+    .newslatter__info{
+        padding-right: 2rem;
+    }
 
     .newslatter__input{
         flex-direction: column;
@@ -2151,7 +2162,7 @@ body{
 }
 
 @media screen and (max-width:300px) {
-    
+
     .statistics{
         width: 100%;
     }
@@ -2165,5 +2176,3 @@ body{
         margin-left: 28%;
     }
 }
-
-
